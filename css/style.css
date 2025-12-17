@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+.container{
+    background: white;
+    max-width: 500px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px #0000004a;
+    margin-top: 100px;
+}
+
+label{
+    margin-top:15px;
+    display: block;
+}
+
+input,textarea,select,button{
+    padding: 8px;
+    margin-top: 5px;
+    width:100%;
+    box-sizing: border-box;
+}
+button{
+    margin-top: 20px;
+    cursor: pointer;
+}
